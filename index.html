@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Menos Plástico, Más Vida</title>
+<meta name="description" content="Campaña interactiva para reducir el uso de plásticos de un solo uso.">
+<meta name="theme-color" content="#0ea5e9">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="header" id="top">
+  <div class="brand">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <rect x="2" y="2" width="9" height="9" rx="2" fill="#0ea5e9"/>
+      <rect x="13" y="2" width="9" height="9" rx="2" fill="#22c55e"/>
+      <rect x="2" y="13" width="9" height="9" rx="2" fill="#22c55e"/>
+      <rect x="13" y="13" width="9" height="9" rx="2" fill="#0ea5e9"/>
+    </svg>
+    <span>Menos Plástico, Más Vida</span>
+  </div>
+  <nav class="nav" aria-label="Principal">
+    <button class="nav-toggle" aria-label="Abrir menú">☰</button>
+    <ul class="nav-list">
+      <li><a href="#introduccion">Introducción</a></li>
+      <li><a href="#datos">Datos</a></li>
+      <li><a href="#objetivos">Objetivos</a></li>
+      <li><a href="#acciones">Acciones</a></li>
+      <li><a href="#calculadora">Calculadora</a></li>
+      <li><a href="#quiz">Quiz</a></li>
+      <li><a href="#destinatarios">Destinatarios</a></li>
+      <li><a href="#conclusion">Conclusión</a></li>
+    </ul>
+  </nav>
+  <button id="themeToggle" class="theme-toggle" aria-label="Cambiar tema">◐</button>
+</header>
+
+<section class="hero">
+  <div class="hero-inner">
+    <h1><span class="accent">Menos</span> plástico, <span class="accent-2">más</span> vida</h1>
+    <p>Sumate a la campaña para reducir el uso de plásticos de un solo uso y transformar hábitos cotidianos con impacto real.</p>
+    <div class="hero-ctas">
+      <a class="btn primary" href="#acciones">Quiero actuar</a>
+      <a class="btn ghost" href="#introduccion">Saber más</a>
+    </div>
+    <div class="stats">
+      <div class="stat">
+        <span class="stat-num" data-count="12000">0</span>
+        <span class="stat-label">Piezas evitadas</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num" data-count="850">0</span>
+        <span class="stat-label">Compromisos</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num" data-count="42">0</span>
+        <span class="stat-label">Comunidades</span>
+      </div>
+    </div>
+  </div>
+  <div class="shape shape-a"></div>
+  <div class="shape shape-b"></div>
+  <div class="mascot" aria-label="Mascota del proyecto">
+    <svg viewBox="0 0 120 120" aria-hidden="true">
+      <defs>
+        <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+          <stop offset="0%" stop-color="#38bdf8"/>
+          <stop offset="100%" stop-color="#0ea5e9"/>
+        </linearGradient>
+        <linearGradient id="g2" x1="0" x2="1" y1="0" y2="1">
+          <stop offset="0%" stop-color="#22c55e"/>
+          <stop offset="100%" stop-color="#16a34a"/>
+        </linearGradient>
+      </defs>
+      <g class="mascot-drop">
+        <path d="M60 10 C80 35 95 50 95 72 A35 35 0 1 1 25 72 C25 50 40 35 60 10 Z" fill="url(#g1)"/>
+        <ellipse cx="48" cy="66" rx="6" ry="8" fill="#0f172a" opacity="0.85"/>
+        <ellipse cx="72" cy="66" rx="6" ry="8" fill="#0f172a" opacity="0.85"/>
+        <path d="M45 82 C55 90 65 90 75 82" stroke="#0f172a" stroke-width="4" fill="none" stroke-linecap="round"/>
+        <path d="M82 34 C98 40 104 52 100 64 C90 60 82 49 82 34 Z" fill="url(#g2)"/>
+      </g>
+    </svg>
+    <span class="mascot-name">EcoGota</span>
+  </div>
+</section>
+
+<main>
+  <section id="introduccion" class="section reveal">
+    <h2>Introducción</h2>
+    <p>Uno de los mayores problemas ambientales es la contaminación por plásticos, en especial los de un solo uso como bolsas, botellas y envoltorios. Estos productos, usados por minutos, tardan décadas en degradarse y afectan ecosistemas, fauna y salud humana.</p>
+    <p>La campaña busca generar conciencia y fomentar hábitos más responsables en la vida cotidiana.</p>
+    <div class="cards">
+      <article class="card kpi">
+        <h3>Impacto</h3>
+        <p>Más del 50% del plástico producido se usa una sola vez. Reducirlo disminuye residuos y emisiones.</p>
+      </article>
+      <article class="card kpi">
+        <h3>Oportunidad</h3>
+        <p>Pequeños cambios sostenidos logran grandes resultados a escala comunitaria.</p>
+      </article>
+      <article class="card kpi">
+        <h3>Acción</h3>
+        <p>Reemplazar por alternativas reutilizables es la vía más rápida y económica.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="awareness-banner" aria-label="Banner de concientización">
+    <img
+      class="awareness-banner-img"
+      src="assets/concientizacion-banner.svg"
+      alt="Concientización: menos plástico de un solo uso = más vida para los ecosistemas"
+      loading="lazy"
+    >
+  </section>
+
+  <section id="datos" class="section reveal">
+    <h2>Datos clave</h2>
+    <div class="facts">
+      <article class="fact">
+        <div class="fact-num">~400 Mt</div>
+        <div class="fact-label">plástico producido por año</div>
+        <a class="source" href="https://wedocs.unep.org/bitstream/handle/20.500.11822/42413/turning_off_the_tap_ESEN.pdf?sequence=1&isAllowed=y" target="_blank" rel="noopener">Fuente: ONU Medio Ambiente (2023) - Executive Summary</a>
+      </article>
+      <article class="fact">
+        <div class="fact-num">>=85%</div>
+        <div class="fact-label">de la basura marina es plástico</div>
+        <a class="source" href="https://www.unep.org/resources/pollution-solution-global-assessment-marine-litter-and-plastic-pollution" target="_blank" rel="noopener">Fuente: ONU Medio Ambiente (2021)</a>
+      </article>
+      <article class="fact">
+        <div class="fact-num">9%</div>
+        <div class="fact-label">del plástico se recicla globalmente</div>
+        <a class="source" href="https://www.oecd.org/en/about/news/press-releases/2022/02/plastic-pollution-is-growing-relentlessly-as-waste-management-and-recycling-fall-short.html" target="_blank" rel="noopener">Fuente: OCDE (2022) - Press release</a>
+      </article>
+      <article class="fact">
+        <div class="fact-num">~11 Mt</div>
+        <div class="fact-label">llegan al océano cada año</div>
+        <a class="source" href="https://www.pewtrusts.org/en/research-and-analysis/articles/2020/07/23/breaking-the-plastic-wave-top-findings" target="_blank" rel="noopener">Fuente: Pew (2020)</a>
+      </article>
+    </div>
+  </section>
+
+  <section id="objetivos" class="section reveal">
+    <h2>Objetivos de la campaña</h2>
+    <ul class="bullet-grid">
+      <li>Reducir el consumo de plásticos descartables</li>
+      <li>Fomentar el uso de alternativas reutilizables</li>
+      <li>Informar sobre el impacto ambiental</li>
+      <li>Incentivar pequeños cambios con grandes resultados</li>
+      <li>Mensaje: Cada elección cuenta</li>
+    </ul>
+  </section>
+
+  <section id="acciones" class="section reveal">
+    <h2>Acciones rápidas</h2>
+    <p>Seleccioná hábitos sostenibles y seguí tu progreso.</p>
+    <div class="actions">
+      <label class="action"><input type="checkbox" data-points="10"> Llevo mi botella reutilizable</label>
+      <label class="action"><input type="checkbox" data-points="10"> Uso bolsas de tela</label>
+      <label class="action"><input type="checkbox" data-points="10"> Evito sorbetes</label>
+      <label class="action"><input type="checkbox" data-points="10"> Compro a granel</label>
+      <label class="action"><input type="checkbox" data-points="10"> Prefiero envases retornables</label>
+    </div>
+    <div class="progress-wrap">
+      <div class="progress-bar"><span id="progressFill" style="width:0%"></span></div>
+      <span id="progressLabel">0% completado</span>
+    </div>
+    <div class="cta-row">
+      <button id="shareActions" class="btn secondary">Compartir mis acciones</button>
+      <button id="resetActions" class="btn ghost">Reiniciar</button>
+    </div>
+  </section>
+
+  <section id="calculadora" class="section reveal">
+    <h2>Calculadora de plástico evitado</h2>
+    <div class="calc">
+      <div class="calc-row">
+        <label for="bolsas">Bolsas por semana</label>
+        <input id="bolsas" type="number" min="0" value="3">
+      </div>
+      <div class="calc-row">
+        <label for="botellas">Botellas por semana</label>
+        <input id="botellas" type="number" min="0" value="4">
+      </div>
+      <div class="calc-row">
+        <label for="envoltorios">Envoltorios por semana</label>
+        <input id="envoltorios" type="number" min="0" value="5">
+      </div>
+      <div class="calc-result">
+        <div class="result-number"><span id="resultado">0</span>/año</div>
+        <div class="result-label">piezas de plástico menos si cambiás hoy</div>
+      </div>
+      <button id="calcBtn" class="btn primary">Calcular</button>
+    </div>
+  </section>
+
+  <section id="quiz" class="section reveal">
+    <h2>Quiz rápido</h2>
+    <form class="quiz" id="quizForm">
+      <fieldset>
+        <legend>¿Cuánto tarda una botella PET en degradarse?</legend>
+        <label><input type="radio" name="q1" value="0"> 5 años</label>
+        <label><input type="radio" name="q1" value="1"> 450 años</label>
+        <label><input type="radio" name="q1" value="0"> 20 años</label>
+      </fieldset>
+      <fieldset>
+        <legend>La mejor alternativa a las bolsas plásticas es</legend>
+        <label><input type="radio" name="q2" value="1"> Reutilizar bolsas de tela</label>
+        <label><input type="radio" name="q2" value="0"> Usar doble bolsa</label>
+        <label><input type="radio" name="q2" value="0"> Comprar bolsas biodegradables</label>
+      </fieldset>
+      <fieldset>
+        <legend>¿Qué acción reduce más residuos?</legend>
+        <label><input type="radio" name="q3" value="1"> Comprar a granel con propios envases</label>
+        <label><input type="radio" name="q3" value="0"> Separar sólo el plástico</label>
+        <label><input type="radio" name="q3" value="0"> Usar sorbetes compostables</label>
+      </fieldset>
+      <div class="cta-row">
+        <button type="submit" class="btn secondary">Ver resultado</button>
+      </div>
+      <p id="quizResult" class="quiz-result" aria-live="polite"></p>
+    </form>
+  </section>
+
+  <section id="destinatarios" class="section reveal">
+    <h2>Destinatarios</h2>
+    <p>La campaña está dirigida a toda la comunidad, especialmente a jóvenes y familias, como agentes clave para cambios en los hábitos diarios.</p>
+  </section>
+
+  <section id="compromiso" class="section reveal">
+    <h2>Sumá tu compromiso</h2>
+    <form id="pledgeForm" class="pledge">
+      <label>Nombre
+        <input type="text" id="nombre" placeholder="Tu nombre" required>
+      </label>
+      <label>Tu compromiso
+        <input type="text" id="mensaje" placeholder="Ej: usar siempre mi botella">
+      </label>
+      <button class="btn primary" type="submit">Firmar</button>
+    </form>
+    <div class="pledge-card" id="pledgeCard" hidden>
+      <div class="pledge-badge">Compromiso</div>
+      <div class="pledge-text" id="pledgeText"></div>
+      <div class="cta-row">
+        <button id="sharePledge" class="btn secondary">Compartir</button>
+        <button id="clearPledge" class="btn ghost">Borrar</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="conclusion" class="section reveal">
+    <h2>Conclusión</h2>
+    <p>El cuidado del ambiente también depende de pequeños cambios sostenidos. Reducir los plásticos de un solo uso protege el planeta y asegura un futuro más saludable.</p>
+    <p>Con compromiso y conciencia es posible una transformación positiva. Menos plástico significa más vida.</p>
+  </section>
+
+  <section id="equipo" class="section reveal">
+    <h2>Equipo</h2>
+    <ul class="team">
+      <li>Micaela Páez</li>
+      <li>Nicolás Flores</li>
+      <li>Lis Ledesma</li>
+      <li>Federico Hernández</li>
+    </ul>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="brand-mini">Campaña Ambiental</div>
+    <div class="footer-actions">
+      <a class="btn ghost small" href="#top">Volver arriba</a>
+      <a class="btn secondary small" href="#compromiso">Sumarme</a>
+    </div>
+  </div>
+</footer>
+
+<button class="floating-cta" onclick="location.href='#compromiso'">Actuar</button>
+<button id="toTop" class="to-top" aria-label="Volver arriba">↑</button>
+
+<script src="app.js"></script>
+</body>
+</html>

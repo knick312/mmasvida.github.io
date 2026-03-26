@@ -1,0 +1,10 @@
+{
+  "name": "menos-plastico-mas-vida",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Sitio estático de la campaña Menos Plástico, Más Vida",
+  "scripts": {
+    "dev": "node dev-server.js",
+    "preview": "node dev-server.js"
+  }
+}
